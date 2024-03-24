@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura para ocupar toda la pantalla */
+    background-color: #f2f2f2; /* Cambia el color de fondo */
+}
+
+.container {
+    width: 80%; /* Ancho del contenedor */
+    max-width: 400px; /* Ancho máximo para dispositivos móviles */
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center; /* Alinea el contenido al centro */
+    background-color: #fff; /* Color de fondo */
+}
+
+.logo {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    margin-bottom: 20px;
+    border-radius: 10px; /* Añade bordes redondeados a la imagen */
+}
+
+.input-field {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); /* Toma el ancho completo del contenedor con margen */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box; /* Incluye el padding en el ancho */
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Botón ocupa el ancho completo */
+}
+
+.submit-button:hover {
+    background-color: #8a2be2;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+.question {
+    font-size: 16px;
+    margin-bottom: 10px;
+}

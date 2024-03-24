@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.puzzle {
+    width: 300px; /* Ancho del rompecabezas */
+    height: 300px; /* Altura del rompecabezas */
+    border: 2px solid #000; /* Borde del rompecabezas */
+    background-image: url('imagen.jpg'); /* Imagen del rompecabezas */
+    background-size: cover;
+    position: relative;
+}
+
+.puzzle-piece {
+    width: 100px; /* Ancho de cada pieza */
+    height: 100px; /* Altura de cada pieza */
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo de cada pieza */
+    position: absolute;
+    border: 1px solid #000; /* Borde de cada pieza */
+}
+

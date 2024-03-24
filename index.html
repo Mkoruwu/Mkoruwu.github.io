@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Contraseña</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <img src="amarilla.jpeg" alt="Coraline" class="logo">
+            <p class="question">¿Cuál es tu película favorita?</p>
+            <form id="passwordForm" onsubmit="checkPassword(); return false;">
+                <input type="password" id="passwordInput" placeholder="Contraseña" class="input-field">
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+            <p id="errorMessage" class="error-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

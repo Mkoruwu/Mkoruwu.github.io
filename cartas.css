@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Indie Flower", roboto;
+}
+
+.container {
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave alrededor del contenedor */
+    padding: 20px;
+    margin: 20px; /* Espacio entre el contenedor y los bordes de la ventana */
+}
+
+.content-container {
+    text-align: center;
+    color: #000; /* Color del texto */
+}
+
+.page-title {
+    margin-top: 0;
+}
+
+.product-details {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 10px; /* Centra la imagen horizontalmente y agrega margen en la parte inferior */
+}
+
+.product-description {
+    color: #666; /* Color del texto de descripción */
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #555; /* Cambio de color de fondo al pasar el cursor sobre el botón */
+}
